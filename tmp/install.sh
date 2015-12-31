@@ -16,6 +16,7 @@ apt-get install yad
 apt-get install fglrx
 apt-get install xubuntu-desktop
 apt-get install git
+apt-get install minidlna
 mkdir testgit
 cd testgit
 git init
