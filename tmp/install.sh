@@ -7,6 +7,8 @@ add-apt-repository ppa:webupd8team/y-ppa-manager
 apt-get update
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 apt-get update
+sudo add-apt-repository ppa:openshot.developers/ppa
+apt-get update
 
 
 #Installing packages
@@ -16,6 +18,7 @@ apt-get install yad
 apt-get install fglrx
 apt-get install xubuntu-desktop
 apt-get install git
+apt-get install openshot openshot-doc
 apt-get install minidlna
 mkdir testgit
 cd testgit
